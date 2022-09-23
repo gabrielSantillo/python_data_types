@@ -43,3 +43,9 @@ for name in list_of_clients:
     print(name["username"], name["age"])
     for friend in name["friends"]:
         print(friend)
+
+def number_function(one, two):
+    return (one * two) / 2
+
+result = number_function(10,10)
+print(result)
